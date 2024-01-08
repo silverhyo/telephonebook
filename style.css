@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+/* ===============================================BPS_KAM */
+
+.telephonebook {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#bps_kam {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    order: 1;
+}
+
+.kam {
+    border: 0px solid black;
+    display: flex;
+    margin-top: 1px;
+    width: 100%;
+}
+
+/* ===============================================LPS_LSR */
+
+#lps_lrs {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    order: -1;
+}
+
+.lrs {
+    border: 0px solid darkgray;
+    display: flex;
+    margin-top: 1px;
+    width: 100%;
+}
+
+
+
+
+
+/* =================================================COMMON */
+.box > div {
+    border: 0px solid red;
+    text-align: center;
+    line-height: 28px;
+}
+
+.name {
+    width: 70px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    background-color: #FFF100;
+}
+.box {
+    flex: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    font-size: 13px;
+}
+.box > div a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+}
+.title {
+    width: 35%;
+}
+.department {
+    width: 65%;
+}
+.email {
+    width: 100%;
+}
+.task {
+    width: 100%;
+}
+.mobile {
+    width: 70%;
+}
+.extension {
+    width: 30%;
+}
